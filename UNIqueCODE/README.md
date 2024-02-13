@@ -1,12 +1,11 @@
-## Judul Soal
-UNIqueCODE
+## UNIqueCODE
 
 
-## Deskripsi
+## Description
 Just some random unicode decrypting hidden file inside, I know you can solve this.
 
 
-## Penyelesaian
+## Solving
 
 Ekstrak file `chall.png` kemudian cari file bernama `UNI`
 
@@ -31,7 +30,7 @@ Jika kita perhatikan lagi flagnya ternyata bilangan desimal, kita bisa decrypt d
 - Statement for mem-parsing setiap isi dari variabel `repl` akan diubah ke tipe data Python List untuk mendapatkan representasi string yang spesifik, dengan fungsi `chr()` lalu tampilkan flagnya.
 
 
-## Metode Penyelesaian Lain
+## Other solving method
 
 Bisa menggunakan webtools untuk decryptnya, https://www.asciitohex.com/ kemudian hilangkan string `字0漢` ganti menjadi spasi, didapatlah flagnya.
 

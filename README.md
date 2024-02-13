@@ -2,6 +2,6 @@
 
 ## Hackfest0x06 2022
 
-| Name	     | Category | Difficulty |
-|------------|----------|------------|
-| UNIqueCODE | Forensic | Easy	     |
+| Name | Category | Difficulty |
+|------|----------|------------|
+| [UNIqueCODE](UNIqueCODE) | Forensic | Easy |
