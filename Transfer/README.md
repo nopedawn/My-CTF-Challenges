@@ -1,12 +1,10 @@
-## Judul Soal
-Transfer
+## Transfer
 
-
-## Deskripsi
+## Description
 Rekan saya mencoba men-transfer beberapa file, tetapi beberapa file tersebut ter-encode, bisakah kamu mencari tahu apa isi file tersebut.
 
 
-## Penyelesaian
+## Solving
 - Diberikan sebuah challenge packet capture, berisi packet traffic FTP (File Transfer Protocol)
 
 - Cek Statistics > Protocol Hierarchy > Terdapat traffic FTP > dan juga Line-based text data
