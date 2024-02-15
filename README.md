@@ -4,6 +4,6 @@
 
 | Name | Category | Difficulty |
 |------|----------|------------|
-| [UNIqueCODE](UNIqueCODE) | Forensic | Easy |
-| [Transfer](Transfer) | Forensic | Easy |
-| [Siomay_DUMPling](Siomay_DUMPling) | Forensic | Easy to Medium |
+| [UNIqueCODE](UNIqueCODE#uniquecode) | Forensic | Easy |
+| [Transfer](Transfer#transfer) | Forensic | Easy |
+| [Siomay_DUMPling](Siomay_DUMPling#siomay-dumpling) | Forensic | Easy to Medium |
