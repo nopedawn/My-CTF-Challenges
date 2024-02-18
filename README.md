@@ -1,6 +1,6 @@
 # CTF Challenges Lists
 
-## Hackfest0x06 2022
+## Hackfest 0x06 2022
 
 | Name | Category | Difficulty |
 |------|----------|------------|
