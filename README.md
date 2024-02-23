@@ -12,3 +12,4 @@
 | Name | Category | Difficulty |
 |------|----------|------------|
 | [space mono](TechnoFair10.0/space-mono#space-mono) | Forensic | Easy |
+| [ISG](TechnoFair10.0/ISG#ISG) | Forensic | Easy to Medium |
