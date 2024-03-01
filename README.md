@@ -12,4 +12,5 @@
 | Name | Category | Difficulty |
 |------|----------|------------|
 | [space mono](TechnoFair10.0/space-mono#space-mono) | Forensic | Easy |
-| [ISG](TechnoFair10.0/ISG#ISG) | Forensic | Easy to Medium |
+| [ISG](TechnoFair10.0/ISG#isg) | Forensic | Easy to Medium |
+| [Dig Into Udin Case](TechnoFair10.0/Dig-Into-Udin-Case#dig-into-udin-dase) | Forensic | Medium |
