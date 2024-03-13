@@ -18,3 +18,4 @@
 | Name | Category | Difficulty |
 |------|----------|------------|
 | [PWChecker4j](Hackfest0x07/PWChecker4j#pwchecker4j) | Reverse Engineering | Easy |
+| [ndelosor](Hackfest0x07/ndelosor#ndelosor) | Reverse Engineering | Easy to Medium |
