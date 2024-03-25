@@ -1,0 +1,51 @@
+  0           0 RESUME                   0
+
+  1           2 LOAD_CONST               0 ('i heard something weird about this {} one, would you cook it for me?')
+              4 STORE_NAME               0 (var0)
+
+  4           6 LOAD_CONST               1 (<code object <listcomp> at 0x55c67fad43b0, file "example.py", line 4>)
+              8 MAKE_FUNCTION            0
+             10 LOAD_CONST               2 ((66, 104, 104, 110, 114, 104, 105, 119, 47, 114, 47, 54, 122, 117, 51, 48, 113, 50, 103, 94, 48, 102, 94, 47, 113, 50, 94, 105, 119, 50, 106, 94, 48, 117, 121, 47, 94, 48, 118, 102, 124))
+             12 GET_ITER
+             14 PRECALL                  0
+             18 CALL                     0
+             28 STORE_NAME               1 (lst0)
+
+ 12          30 LOAD_NAME                1 (lst0)
+             32 LOAD_METHOD              2 (clear)
+             54 PRECALL                  0
+             58 CALL                     0
+             68 POP_TOP
+
+ 14          70 PUSH_NULL
+             72 LOAD_NAME                3 (print)
+             74 LOAD_NAME                0 (var0)
+             76 LOAD_METHOD              4 (format)
+             98 LOAD_CONST               3 ('`vigenere`')
+            100 PRECALL                  1
+            104 CALL                     1
+            114 PRECALL                  1
+            118 CALL                     1
+            128 POP_TOP
+
+ 15         130 PUSH_NULL
+            132 LOAD_NAME                3 (print)
+            134 LOAD_NAME                1 (lst0)
+            136 PRECALL                  1
+            140 CALL                     1
+            150 POP_TOP
+            152 LOAD_CONST               4 (None)
+            154 RETURN_VALUE
+
+Disassembly of <code object <listcomp> at 0x55c67fad43b0, file "example.py", line 4>:
+  4           0 RESUME                   0
+              2 BUILD_LIST               0
+              4 LOAD_FAST                0 (.0)
+        >>    6 FOR_ITER                 7 (to 22)
+              8 STORE_FAST               1 (x)
+             10 LOAD_FAST                1 (x)
+             12 LOAD_CONST               0 (1)
+             14 BINARY_OP                0 (+)
+             18 LIST_APPEND              2
+             20 JUMP_BACKWARD            8 (to 6)
+        >>   22 RETURN_VALUE
