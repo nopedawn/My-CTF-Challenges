@@ -1,0 +1,1 @@
+strings unidentified.pcap | grep -E '^[0-9]{2,}$' > out.txt
