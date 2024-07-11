@@ -1,6 +1,6 @@
 # CTF Challenges Lists
 
-## TechnoFair 10.0 2024
+## TechnoFair 11.0 2024
 | Name | Category | Difficulty |
 |------|----------|------------|
 | [HiLF](TechnoFair11.0/HiLF#hilf) | Forensic | Medium |
