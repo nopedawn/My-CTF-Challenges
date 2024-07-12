@@ -1,0 +1,22 @@
+version: '3'
+
+services:
+  final_foren__ehcacpdr:
+    image: final_foren__ehcacpdr
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - '1517:9999'
+    volumes:
+      - final_foren__ehcacpdr_volume:/var/lib/final_foren__ehcacpdr_volume
+    networks:
+      - final_foren__ehcacpdr_network
+
+volumes:
+  final_foren__ehcacpdr_volume:
+    driver: local
+
+networks:
+  final_foren__ehcacpdr_network:
+    driver: bridge

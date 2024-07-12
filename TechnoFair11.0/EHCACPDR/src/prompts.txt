@@ -1,0 +1,32 @@
+Let's interrogate what you've discovered.
+(If there are spaces, it can be replaced with `_` (underscore))
+
+1. As you begin your investigation, you notice the system's foundation. What operating system is this machine running? e.g. (XXX_XXX)
+Answer: Windows_10
+
+2. Every user leaves a trace. In this case, what Username stands out in the logs?
+Answer: student_01_dc0fa1dd7
+
+3. The first login can often reveal crucial timing. When did our person of interest first access the system? e.g. (h:mm_MM/DD/YYYY)
+Answer: 2:06_3/12/2024
+
+4. Remote access is key in many operations. What specific software did the user employ for remote computer connections?
+Answer: PuTTY
+
+5. Cloud configurations can pinpoint locations. When setting up the instance, which gcloud zone was specified? e.g. (XXX-XXX-XXX)
+Answer: us-west1-c
+
+6. Tunnels are often used for secure connections. What port number did the user attempt to use when starting the IAP tunnel?
+Answer: 3389
+
+7. A successful login provides an overview of the user's identity and location. Upon connecting via PuTTY, what username and hostname combination appeared? e.g. (username@hostname)
+Answer: sa_115757880695163405973@linux-iap
+
+8. Security keys are a treasure trove of information. Can you provide the exact path where the ssh keys are stored on this system?
+Answer: C:\Users\student_01_dc0fa1dd7\.ssh
+
+9. Rumors of malware often turn out to be misunderstood legitimate processes. A program running in the background has sparked discussion in forums about potential spyware, but it's actually a standard Windows component. Can you identify this often-misunderstood process? e.g. (XXX_XXX_XXX)
+Answer: Windows_Command_Processor
+
+10. Organization is crucial in any system. In our final observation, how many server groups did you identify in total?
+Answer: 1

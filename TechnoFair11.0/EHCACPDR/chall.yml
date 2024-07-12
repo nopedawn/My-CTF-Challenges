@@ -1,0 +1,12 @@
+config:
+  setup:
+    - "./src/service/setup.sh"
+  shutdown:
+    - "./src/service/shutdown.sh"
+
+src:
+  - "C:\Users\PC\AppData\Local\Microsoft\Terminal Server Client\Cache\Cache0000.bin"
+
+extract:
+  - "mkdir extracted \
+      | bmc-tools -s Cache0000.bin -d extracted/"
