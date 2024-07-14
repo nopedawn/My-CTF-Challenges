@@ -4,6 +4,7 @@
 | Name | Category | Difficulty |
 |------|----------|------------|
 | [HiLF](TechnoFair11.0/HiLF#hilf) | Forensic | Medium |
+| [EHCACPDR](TechnoFair11.0/EHCACPDR#ehcacpdr) | Forensic | Easy to Medium |
 
 ## Hackfest 0x07 2023
 | Name | Category | Difficulty |
